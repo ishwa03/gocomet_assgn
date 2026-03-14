@@ -1,0 +1,5 @@
+pages\CasekaroPage.class
+utils\PlaywrightFactory.class
+hooks\hooks.class
+stepdefinitions\CasekaroSteps.class
+runner\TestRunner.class

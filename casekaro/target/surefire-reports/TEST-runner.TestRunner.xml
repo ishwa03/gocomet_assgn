@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="runner.TestRunner" time="69.474" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Ishwa\Desktop\casekaro\target\test-classes;C:\Users\Ishwa\Desktop\casekaro\target\classes;C:\Users\Ishwa\.m2\repository\com\microsoft\playwright\playwright\1.43.0\playwright-1.43.0.jar;C:\Users\Ishwa\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Ishwa\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Ishwa\.m2\repository\com\microsoft\playwright\driver\1.43.0\driver-1.43.0.jar;C:\Users\Ishwa\.m2\repository\com\microsoft\playwright\driver-bundle\1.43.0\driver-bundle-1.43.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\Ishwa\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.15.0\cucumber-junit-platform-engine-7.15.0.jar;C:\Users\Ishwa\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\Ishwa\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\Ishwa\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Ishwa\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Ishwa\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Ishwa\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Ishwa\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\Ishwa\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\Ishwa\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\Ishwa\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\Ishwa\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\Ishwa\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.4.101-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Ishwa\AppData\Local\Temp\surefire15113734446012928561\surefirebooter-20260314143137018_3.jar C:\Users\Ishwa\AppData\Local\Temp\surefire15113734446012928561 2026-03-14T14-31-36_396-jvmRun1 surefire-20260314143137018_1tmp surefire_0-20260314143137018_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Ishwa\Desktop\casekaro\target\test-classes;C:\Users\Ishwa\Desktop\casekaro\target\classes;C:\Users\Ishwa\.m2\repository\com\microsoft\playwright\playwright\1.43.0\playwright-1.43.0.jar;C:\Users\Ishwa\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Ishwa\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Ishwa\.m2\repository\com\microsoft\playwright\driver\1.43.0\driver-1.43.0.jar;C:\Users\Ishwa\.m2\repository\com\microsoft\playwright\driver-bundle\1.43.0\driver-bundle-1.43.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\Ishwa\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Ishwa\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.15.0\cucumber-junit-platform-engine-7.15.0.jar;C:\Users\Ishwa\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\Ishwa\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\Ishwa\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Ishwa\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Ishwa\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Ishwa\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Ishwa\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\Ishwa\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\Ishwa\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\Ishwa\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\Ishwa\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Ishwa"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-12"/>
+    <property name="java.home" value="C:\Users\Ishwa\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.4.101-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Ishwa\Desktop\casekaro"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Ishwa\AppData\Local\Temp\surefire15113734446012928561\surefirebooter-20260314143137018_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.4.1+1"/>
+    <property name="user.name" value="Ishwa"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.4.1+1"/>
+    <property name="localRepository" value="C:\Users\Ishwa\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Ishwa\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="user.dir" value="C:\Users\Ishwa\Desktop\casekaro"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Ishwa\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.4.101-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Ishwa\AppData\Local\Programs\Microsoft VS Code;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Ishwa\Downloads\ngrok-v3-stable-windows-amd64;C:\Users\Ishwa\Desktop\causal_attention_project\venv\Scripts\;C:\Program Files\nodejs\;C:\Program Files\CMake\bin;C:\Program Files\apache-maven-3.9.14\bin;C:\Users\Ishwa\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.4.101-hotspot\bin;C:\Users\Ishwa\AppData\Local\Microsoft\WindowsApps;C:\Users\Ishwa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ishwa\AppData\Local\GitHubDesktop\bin;C:\Program Files\nodejs;C:\Users\Ishwa\Downloads\ngrok-v3-stable-windows-amd64;C:\Program Files\heroku\bin;C:\Users\Ishwa\AppData\Roaming\npm;c:\Users\Ishwa\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.4.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Add apple cover materials to cart" classname="TestRunner" time="69.396">
+    <error message="Error {&#10;  message=&apos;Timeout 30000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 30000ms exceeded.&#10;    at ProgressController.run (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\progress.js:78:26)&#10;    at Frame.click (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\frames.js:1001:23)&#10;    at FrameDispatcher.click (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\dispatchers\frameDispatcher.js:158:30)&#10;    at FrameDispatcher._handleCommand (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;- waiting for locator(&quot;.card__heading a&quot;).first()&#10;-   locator resolved to &lt;a class=&quot;full-unstyled-link&quot; id=&quot;StandardCardNoMed…&gt;↵                Blue Marble iPhone 16 Pro Pop Ca…&lt;/a&gt;&#10;- attempting click action&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #1&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #2&#10;-   waiting 20ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #3&#10;-   waiting 100ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #4&#10;-   waiting 100ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #5&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #6&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #7&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #8&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #9&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #10&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #11&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #12&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #13&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #14&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #15&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #16&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #17&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #18&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #19&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #20&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #21&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #22&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #23&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #24&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #25&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #26&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #27&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #28&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #29&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #30&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #31&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #32&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #33&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #34&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #35&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #36&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #37&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #38&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #39&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #40&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #41&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #42&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #43&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #44&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #45&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #46&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #47&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #48&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #49&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #50&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #51&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #52&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #53&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #54&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #55&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #56&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #57&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #58&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not visible&#10;- retrying click action, attempt #59&#10;-   waiting 500ms&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\progress.js:78:26)
+    at Frame.click (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\frames.js:1001:23)
+    at FrameDispatcher.click (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator(".card__heading a").first()
+-   locator resolved to <a class="full-unstyled-link" id="StandardCardNoMed…>↵                Blue Marble iPhone 16 Pro Pop Ca…</a>
+- attempting click action
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #1
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #2
+-   waiting 20ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #3
+-   waiting 100ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #4
+-   waiting 100ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #5
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #6
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #7
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #8
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #9
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #10
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #11
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #12
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #13
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #14
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #15
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #16
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #17
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #18
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #19
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #20
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #21
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #22
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #23
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #24
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #25
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #26
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #27
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #28
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #29
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #30
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #31
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #32
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #33
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #34
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #35
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #36
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #37
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #38
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #39
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #40
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #41
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #42
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #43
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #44
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #45
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #46
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #47
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #48
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #49
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #50
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #51
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #52
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #53
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #54
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #55
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #56
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #57
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #58
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #59
+-   waiting 500ms
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:160)
+	at com.microsoft.playwright.Locator.click(Locator.java:2460)
+	at pages.CasekaroPage.selectFirstProduct(CasekaroPage.java:70)
+	at stepdefinitions.CasekaroSteps.selectProduct(CasekaroSteps.java:37)
+	at ✽.user selects first product(file:///C:/Users/Ishwa/Desktop/casekaro/src/test/resources/features/casekaro.feature:9)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\progress.js:78:26)
+    at Frame.click (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\frames.js:1001:23)
+    at FrameDispatcher.click (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator(".card__heading a").first()
+-   locator resolved to <a class="full-unstyled-link" id="StandardCardNoMed…>↵                Blue Marble iPhone 16 Pro Pop Ca…</a>
+- attempting click action
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #1
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #2
+-   waiting 20ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #3
+-   waiting 100ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #4
+-   waiting 100ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #5
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #6
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #7
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #8
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #9
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #10
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #11
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #12
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #13
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #14
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #15
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #16
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #17
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #18
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #19
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #20
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #21
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #22
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #23
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #24
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #25
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #26
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #27
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #28
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #29
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #30
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #31
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #32
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #33
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #34
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #35
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #36
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #37
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #38
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #39
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #40
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #41
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #42
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #43
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #44
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #45
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #46
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #47
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #48
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #49
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #50
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #51
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #52
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #53
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #54
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #55
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #56
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #57
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #58
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #59
+-   waiting 500ms
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:160)
+	at com.microsoft.playwright.Locator.click(Locator.java:2460)
+	at pages.CasekaroPage.selectFirstProduct(CasekaroPage.java:70)
+	at stepdefinitions.CasekaroSteps.selectProduct(CasekaroSteps.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+    <system-out><![CDATA[
+Scenario: Add apple cover materials to cart &amp#27;[90m# src/test/resources/features/casekaro.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser opens casekaro website&amp#27;[0m         &amp#27;[90m# stepdefinitions.CasekaroSteps.openSite()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks mobile covers&amp#27;[0m            &amp#27;[90m# stepdefinitions.CasekaroSteps.clickMobile()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks search&amp#27;[0m                    &amp#27;[90m# stepdefinitions.CasekaroSteps.clickSearch()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser searches Apple&amp#27;[0m                   &amp#27;[90m# stepdefinitions.CasekaroSteps.selectModel()&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31muser selects first product&amp#27;[0m            &amp#27;[90m# stepdefinitions.CasekaroSteps.selectProduct()&amp#27;[0m
+      &amp#27;[31mcom.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\progress.js:78:26)
+    at Frame.click (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\frames.js:1001:23)
+    at FrameDispatcher.click (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator(".card__heading a").first()
+-   locator resolved to <a class="full-unstyled-link" id="StandardCardNoMedâ€¦>â†µ                Blue Marble iPhone 16 Pro Pop Caâ€¦</a>
+- attempting click action
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #1
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #2
+-   waiting 20ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #3
+-   waiting 100ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #4
+-   waiting 100ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #5
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #6
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #7
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #8
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #9
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #10
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #11
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #12
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #13
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #14
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #15
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #16
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #17
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #18
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #19
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #20
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #21
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #22
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #23
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #24
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #25
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #26
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #27
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #28
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #29
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #30
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #31
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #32
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #33
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #34
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #35
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #36
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #37
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #38
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #39
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #40
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #41
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #42
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #43
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #44
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #45
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #46
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #47
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #48
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #49
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #50
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #51
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #52
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #53
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #54
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #55
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #56
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #57
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #58
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #59
+-   waiting 500ms
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:160)
+	at com.microsoft.playwright.Locator.click(Locator.java:2460)
+	at pages.CasekaroPage.selectFirstProduct(CasekaroPage.java:70)
+	at stepdefinitions.CasekaroSteps.selectProduct(CasekaroSteps.java:37)
+	at âœ½.user selects first product(file:///C:/Users/Ishwa/Desktop/casekaro/src/test/resources/features/casekaro.feature:9)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\progress.js:78:26)
+    at Frame.click (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\frames.js:1001:23)
+    at FrameDispatcher.click (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Ishwa\AppData\Local\Temp\playwright-java-9880716294610857338\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator(".card__heading a").first()
+-   locator resolved to <a class="full-unstyled-link" id="StandardCardNoMedâ€¦>â†µ                Blue Marble iPhone 16 Pro Pop Caâ€¦</a>
+- attempting click action
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #1
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #2
+-   waiting 20ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #3
+-   waiting 100ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #4
+-   waiting 100ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #5
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #6
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #7
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #8
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #9
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #10
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #11
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #12
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #13
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #14
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #15
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #16
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #17
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #18
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #19
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #20
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #21
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #22
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #23
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #24
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #25
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #26
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #27
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #28
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #29
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #30
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #31
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #32
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #33
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #34
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #35
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #36
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #37
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #38
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #39
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #40
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #41
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #42
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #43
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #44
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #45
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #46
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #47
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #48
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #49
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #50
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #51
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #52
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #53
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #54
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #55
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #56
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #57
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #58
+-   waiting 500ms
+-   waiting for element to be visible, enabled and stable
+-   element is not visible
+- retrying click action, attempt #59
+-   waiting 500ms
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:160)
+	at com.microsoft.playwright.Locator.click(Locator.java:2460)
+	at pages.CasekaroPage.selectFirstProduct(CasekaroPage.java:70)
+	at stepdefinitions.CasekaroSteps.selectProduct(CasekaroSteps.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:76)
+	at org.junit.platform.suite.engine.SuiteLauncher.execute(SuiteLauncher.java:63)
+	at org.junit.platform.suite.engine.SuiteTestDescriptor.execute(SuiteTestDescriptor.java:128)
+	at org.junit.platform.suite.engine.SuiteTestEngine.lambda$execute$0(SuiteTestEngine.java:73)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.platform.suite.engine.SuiteTestEngine.execute(SuiteTestEngine.java:73)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.executeWithoutCancellationToken(LauncherAdapter.java:60)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.execute(LauncherAdapter.java:52)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:203)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:168)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:136)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser adds Hard material&amp#27;[0m               &amp#27;[90m# stepdefinitions.CasekaroSteps.addHard()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser adds Soft material&amp#27;[0m               &amp#27;[90m# stepdefinitions.CasekaroSteps.addSoft()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser adds Glass material&amp#27;[0m              &amp#27;[90m# stepdefinitions.CasekaroSteps.addGlass()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser opens cart&amp#27;[0m                      &amp#27;[90m# stepdefinitions.CasekaroSteps.openCart()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mvalidate all three materials added&amp#27;[0m   &amp#27;[90m# stepdefinitions.CasekaroSteps.validateCart()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mprint cart details&amp#27;[0m                    &amp#27;[90m# stepdefinitions.CasekaroSteps.printDetails()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
